@@ -13,7 +13,7 @@ namespace KeLi.HelloOwin.App.Controllers
             new Person { Id = 003, Age = 26, Name = "Kit" }
         };
 
-        public override void Post(string value)
+        public override void Post(Person value)
         {
         }
 
@@ -21,7 +21,7 @@ namespace KeLi.HelloOwin.App.Controllers
         {
         }
 
-        public override void Put(int id, string value)
+        public override void Put(int id, Person value)
         {
         }
 
